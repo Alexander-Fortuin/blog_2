@@ -1,0 +1,86 @@
+{
+  "sideposts": [
+    {
+      "id": 1,
+      "title2": "Alita: Battle Angel",
+      "genre": "Action",
+      "release": "July 20th, 2018",
+      "content2": "<div class=\"text-light bg-secondary\"><span class=\"short-text\">\"Battle Angel\" is based on the Japanese Manga series of graphic novels by Yukito Kishiro. The movie combines the first three books, Ido, Alita, and Hugo.</span><span class=\"long-text\"><br>Set in the 26th century, the story takes place 300 years after a societal collapse caused by a major war. But in that society, it's a technological dark age following a pinnacle of achievement far, far beyond where we are right now. It's a post-apocalyptic world from a very high level with cyborg technology as just a way of life. People are augmented a lot as workers and so on, so being a cyborg is not unusual.<br>The main character is a cyborg. She has an organic human brain, and she looks like she's about fourteen years old. She has a completely artificial body and she's lost her memory - she's found in a wreckage and she's reconstituted by a cyber-surgeon who becomes her surrogate father.</span><span class=\"text-dots\">....</span><span class=\"show-more-button\" data-more=\"0\">Read More</span></div>",
+      "image2": "https://cdn.movieweb.com/img.teasers.posters/FId8JgfmZGZAhd_2_a/Alita-Battle-Angel.jpg"
+    },
+    {
+      "id": 2,
+      "title2": "The Meg",
+      "genre": "Action",
+      "release": "August 10th, 2018",
+      "content2": "<div class=\"text-light bg-secondary\"><span class=\"short-text\">A deep-sea submersible – part of an international undersea observation program – has been attacked by a massive creature, previously thought to be extinct, and now lies disabled at the bottom of the deepest trench in the Pacific… with its crew trapped inside. With time running out, expert deep sea rescue diver Jonas Taylor (Statham) is recruited by a visionary Chinese oceanographer (Winston Chao), against the wishes of his daughter Suyin (Li Bingbing), to save the crew – and the ocean itself – from this unstoppable threat: a pre-historic 75-foot-long shark known as the Megalodon.</span><span class=\"long-text\"><br>What no one could have imagined is that, years before, Taylor had encountered this same terrifying creature. Now, teamed with Suyin, he must confront his fears and risk his own life to save everyone trapped below… bringing him face to face once more with the greatest and largest predator of all time.</span><span class=\"text-dots\">....</span><span class=\"show-more-button\" data-more=\"0\">Read More</span></div>",
+      "image2": "https://cdn.movieweb.com/img.teasers.posters/FIc0Rkhd2Z80ej_4_c/The-Meg.jpg"
+    },
+    {
+      "id": 3,
+      "title2": "Venom",
+      "genre": "Action",
+      "release": "October 5th, 2018",
+      "content2": "<div class=\"text-light bg-secondary\"><span class=\"short-text\">A potential \"Spider-Man\" spinoff, Sony is developing the project, based on the villain who appeared in \"Spider-Man 3\" and is hoping the character could serve as an antidote to the aging \"Spider-Man\" franchise in the way that Fox has used Wolverine to add longevity to its \"X-Men\" franchise.</span><span class=\"long-text\"><br>One of Marvel's most enigmatic, complex and badass characters comes to the big screen, starring Academy Award® nominated actor Tom Hardy as the lethal protector Venom.</span><span class=\"text-dots\">....</span><span class=\"show-more-button\" data-more=\"0\">Read More</span></div>",
+      "image2": "https://cdn.movieweb.com/img.teasers.posters/FIId2NLJXCEDMO_5_c/Venom.jpg"
+    },
+    {
+      "id": 4,
+      "title2": "Halloween",
+      "genre": "Horror",
+      "release": "October 19th, 2018",
+      "content2": "<div class=\"text-light bg-secondary\"><span class=\"short-text\">Jamie Lee Curtis returns to her iconic role as Laurie Strode, who comes to her final confrontation with Michael Myers, the masked figure who has haunted her since she narrowly escaped his killing spree on Halloween night four decades ago.</span><span class=\"long-text\"><br>Master of horror John Carpenter will executive produce and serve as creative consultant on this film, joining forces with cinema’s current leading producer of horror, Jason Blum (Get Out, Split, The Purge, Paranormal Activity). Inspired by Carpenter’s classic, filmmakers David Gordon Green and Danny McBride crafted a story that carves a new path from the events in the landmark 1978 film, and Green also directs.</span><span class=\"text-dots\">....</span><span class=\"show-more-button\" data-more=\"0\">Read More</span></div>",
+      "image2": "https://cdn.movieweb.com/img.teasers.posters/FIKVxTLRsNUePM_4_c/Halloween.jpg"
+    },
+    {
+      "id": 5,
+      "title2": "The Girl in the Spider's Web",
+      "genre": "Crime",
+      "release": "October 19th, 2018",
+      "content2": "<div class=\"text-light bg-secondary\"><span class=\"short-text\">Journalist Mikael Blomkvist and hacker Lisbeth Salander encounter a web of spies, cybercriminals and government corruption.</span><span class=\"long-text\"><br>Lisbeth Salander, the cult figure and title character of the acclaimed Millennium book series created by Stieg Larsson, will return to the screen in The Girl in the Spider's Web, a first-time adaptation of the recent global bestseller. Golden Globe winner Claire Foy, the star of \"The Crown,\" will play the outcast vigilante defender under the direction of Fede Alvarez, the director of 2016's breakout thriller Don't Breathe; the screenplay adaptation is by Steven Knight and Fede Alvarez & Jay Basu.</span><span class=\"text-dots\">....</span><span class=\"show-more-button\" data-more=\"0\">Read More</span></div>",
+      "image2": "https://cdn.movieweb.com/img.teasers.posters/FIoRhwsRs6dUrx_2_c/The-Girl-In-The-Spiders-Web.jpg"
+    }
+  ],
+  "taketwo": [
+    {
+      "id": 1,
+      "title": "Title side One",
+      "author":"1",
+      "time":"12:00 17/07/2018",
+      "content":"<div class=\"text-light bg-secondary\"><span class=\"short-text\">At the end of the day, you are solely responsible for your success and your failure. And the sooner you realize that, you accept that, and integr</span><span class=\"long-text\">ate that into your work ethic, you will start being successful. As long as you blame others for the reason you aren't where you want to be, you will always be a failure.</span><span class=\"text-dots\">....</span><span class=\"show-more-button\" data-more=\"0\">Read More</span></div>",
+      "image":"https://media.gettyimages.com/photos/green-and-yellow-smoke-picture-id611474156"
+    },
+    {
+      "id": 2,
+      "title": "Title side Two",
+      "author":"2",
+      "time":"12:00 17/07/2018",
+      "content":"<div class=\"text-light bg-secondary\"><span class=\"short-text\">At the end of the day, you are solely responsible for your success and your failure. And the sooner you realize that, you accept that, and integr</span><span class=\"long-text\">ate that into your work ethic, you will start being successful. As long as you blame others for the reason you aren't where you want to be, you will always be a failure.</span><span class=\"text-dots\">....</span><span class=\"show-more-button\" data-more=\"0\">Read More</span></div>",
+      "image":"https://media.gettyimages.com/photos/green-and-yellow-smoke-picture-id611474156"
+    },
+    {
+      "id": 3,
+      "title": "Title side Two",
+      "author":"2",
+      "time":"12:00 17/07/2018",
+      "content":"<div class=\"text-light bg-secondary\"><span class=\"short-text\">At the end of the day, you are solely responsible for your success and your failure. And the sooner you realize that, you accept that, and integr</span><span class=\"long-text\">ate that into your work ethic, you will start being successful. As long as you blame others for the reason you aren't where you want to be, you will always be a failure.</span><span class=\"text-dots\">....</span><span class=\"show-more-button\" data-more=\"0\">Read More</span></div>",
+      "image":"https://media.gettyimages.com/photos/green-and-yellow-smoke-picture-id611474156"
+    },
+    {
+      "id": 4,
+      "title": "Title side Two",
+      "author":"2",
+      "time":"12:00 17/07/2018",
+      "content":"<div class=\"text-light bg-secondary\"><span class=\"short-text\">At the end of the day, you are solely responsible for your success and your failure. And the sooner you realize that, you accept that, and integr</span><span class=\"long-text\">ate that into your work ethic, you will start being successful. As long as you blame others for the reason you aren't where you want to be, you will always be a failure.</span><span class=\"text-dots\">....</span><span class=\"show-more-button\" data-more=\"0\">Read More</span></div>",
+      "image":"https://media.gettyimages.com/photos/green-and-yellow-smoke-picture-id611474156"
+    },
+    {
+      "id": 5,
+      "title": "Title side Three",
+      "author":"3",
+      "time":"12:00 17/07/2018",
+      "content":"<div class=\"text-light bg-secondary\"><span class=\"short-text\">At the end of the day, you are solely responsible for your success and your failure. And the sooner you realize that, you accept that, and integr</span><span class=\"long-text\">ate that into your work ethic, you will start being successful. As long as you blame others for the reason you aren't where you want to be, you will always be a failure.</span><span class=\"text-dots\">....</span><span class=\"show-more-button\" data-more=\"0\">Read More</span></div>",
+      "image":"https://media.gettyimages.com/photos/abalone-shell-picture-id590279977"
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+
+    <!-- affix -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+
+    <div id="footer" class="footer">
+      <div class="panel panel-danger">
+        <div class="panel-heading">
+          <h3 class="panel-title">All rights reserved 2018 | </h3>
+        </div>
+      </div>
+    </div>
+    <div class="box">
+
+      <div class="jumbotron">
+        <h1>
+          <img src="http://www.n-ragedmedia.com/images/2011%20website%20images/MOVIES-page-banner-text.png" alt="" width="100%" height="100%">
+        </h1>
+      </div>
+
+      <div class="row">
+        <div class="maincontainer col-md-8">
+
+          <div class="row">
+
+            <div class="container col-xs-12 col-lg-12"  data-scroll-speed="4">
+              <div class="row">
+                <% if (blogs.length !=0) { %>
+
+                  <% blogs.forEach(function(blog){ %>
+
+                    <div class="col-xs-12 col-lg-4">
+                      <div class="panel panel-danger">
+                        <div class="panel-heading">
+                          <h3 class="panel-title"><%= blog.title %></h3>
+                        </div>
+                        <div class="panel-body text-dark archive bg-light">
+                          <%- blog.content %>
+                          <button class="btn btn-secondary" id="<%- blog.id %>" type="button" name="button">
+                            <a href="/view/<%- blog.id %>">More</a>
+                          </button>
+                        </div>
+                        <ul class="list-group">
+                         <li class="list-group-item bg-light">
+                           <img src="<%= blog.image %>" alt="" width="100%" height="auto">
+                         </li>
+                       </ul>
+
+                        <div class="panel-footer">
+                          Author: <%= blog.author %>
+                        </div>
+                      </div>
+
+                    </div>
+
+
+
+
+                  <% }); %>
+
+                <% } else { %>
+
+                  <p>You have no blog posts.</p>
+
+                <% } %>
+
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+        <!-- nav-stacked -->
+        <!------------------------------------------------------------------------->
+        <div id="sidebar" class="sidebar col-md-4">
+          <nav  class="bg-light">
+            <ul class="nav nav-tabs flex-column" data-spy="affix" data-offset-top="615">
+              <li><a href="/">Home</a></li>
+              <li class="ownactive"><a class="ownactive" href="/archive">Archive</a></li>
+              <li><a href="/newBlog">Create Post</a></li>
+              <li><a href="/signUp">Sign Up</a></li>
+              <li><div id="module" class="container">
+
+                <p class="collapse" id="collapseExample" aria-expanded="false">
+
+                      <input type="text" placeholder="First Name" name="name" value=""  maxlength="12" required>
+                      <input type="text" placeholder="Last Name" name="surname" value="">
+                      <input type="email" placeholder="E-mail" name="email" value="">
+                      <input type="password" placeholder="Password" name="password" value="">
+                      <button class="btn btn-secondary" onclick="myFunction()"><span id="signOut">Sign In</span></button>
+
+                </p>
+                <h3><a role="button" class="collapsed" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                </a></h3>
+
+              </div></li>
+            </ul>
+          </nav>
+          <!-------------------------------------->
+          <div class="iframes" data-spy="affix" data-offset-top="605">
+            <div id="trailers" class="row">
+
+              <div class="col-xs-12">
+                <div class="panel panel-danger">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">New Movie Trailers</h3>
+                  </div>
+                  <ul class="list-group">
+                   <li class="list-group-item   bg-light">
+                     <iframe width="400" height="200" src="https://www.youtube.com/embed/AVuJhvHbrk0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                   </li>
+                 </ul>
+                </div>
+              </div>
+
+              <div class="col-xs-12">
+                <div class="panel panel-danger">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Venom</h3>
+                  </div>
+                  <ul class="list-group">
+                   <li class="list-group-item   bg-light">
+                     <iframe width="400" height="200" src="https://www.youtube.com/embed/70JIXsey2iI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                   </li>
+                 </ul>
+                </div>
+              </div>
+
+              <div class="col-xs-12">
+                <div class="panel panel-danger">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Teen Titans</h3>
+                  </div>
+                  <ul class="list-group">
+                   <li class="list-group-item   bg-light">
+                     <iframe width="400" height="200" src="https://www.youtube.com/embed/VilLIvqFvME" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                   </li>
+                 </ul>
+                </div>
+              </div>
+
+              <div class="col-xs-12">
+                <div class="panel panel-danger">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">The Meg</h3>
+                  </div>
+                  <ul class="list-group">
+                   <li class="list-group-item   bg-light">
+                     <iframe width="400" height="200" src="https://www.youtube.com/embed/aDCWRdS1olw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                   </li>
+                 </ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <script type="text/javascript">
+
+
+        $(".show-more-button").on('click', function() {
+        	// If text is shown less, then show complete
+        	if($(this).attr('data-more') == 0) {
+        		$(this).attr('data-more', 1);
+        		$(this).css('display', 'block');
+        		$(this).text('Hide');
+
+        		$(this).prev().css('display', 'none');
+        		$(this).prev().prev().css('display', 'inline');
+        	}
+        	// If text is shown complete, then show less
+        	else if(this.getAttribute('data-more') == 1) {
+        		$(this).attr('data-more', 0);
+        		$(this).css('display', 'inline');
+        		$(this).text('Read More');
+
+        		$(this).prev().css('display', 'inline');
+        		$(this).prev().prev().css('display', 'none');
+        	}
+        });
+
+        //////////////////////////////////////////////////////////////////////////
+        // scroll speed
+        $.fn.moveIt = function(){
+          var $window = $(window);
+          var instances = [];
+
+          $(this).each(function(){
+            instances.push(new moveItItem($(this)));
+          });
+
+          window.addEventListener('scroll', function(){
+            var scrollTop = $window.scrollTop();
+            instances.forEach(function(inst){
+              inst.update(scrollTop);
+            });
+          }, {passive: true});
+        }
+
+        var moveItItem = function(el){
+          this.el = $(el);
+          this.speed = parseInt(this.el.attr('data-scroll-speed'));
+        };
+
+        moveItItem.prototype.update = function(scrollTop){
+          this.el.css('transform', 'translateY(' + -(scrollTop / this.speed) + 'px)');
+        };
+
+        // Initialization
+        $(function(){
+          $('[data-scroll-speed]').moveIt();
+        });
+
+        ///////////////////////////////////////////////////////////////////////
+
+
+        $(function(){
+            $('.navbar').affix({
+              offset: {
+                /* Affix the navbar after scroll below header */
+                top: $("header").outerHeight(true)}
+            });
+        });
+        //////////////////////////////////////
+        // footer
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+              document.getElementById("footer").style.display = "block";
+          } else {
+              document.getElementById("footer").style.display = "none";
+          }
+        }
+    </script>
+  </body>
+</html>

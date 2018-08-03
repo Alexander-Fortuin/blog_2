@@ -1,0 +1,139 @@
+body {
+  padding: 25px;
+  /* padding: 50px; */
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /* background-color: blue; */
+  background-image: url(https://fortunedotcom.files.wordpress.com/2017/08/movies.gif);
+  background-attachment: fixed;
+  background-size: cover;
+  /* color: red; */
+}
+/* ---------------------------------------------------------------------- */
+.jumbotron {
+  background-image: url(https://steemitimages.com/0x0/https://steemitimages.com/DQmVaeqGAQMoE7iwdXBx2JYFyNj8JfWUQJNJ7yDTQRkx9kv/Movies%20to%20be%20released%20in%202018.jpg);
+  background-size: cover;
+  color: red;
+  height: 50em;
+}
+h1 {
+  border-radius: 5px;
+  overflow: hidden;
+  width: 50%;
+  height: 50%;
+}
+.affix {
+      top: 20px;
+      z-index: 9999;
+      right: auto;
+      width: 31%;
+      background-color: #f8f9fa;
+      border-radius: 5px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+.iframes {
+  position: fixed;
+  z-index: 97;
+  height: 48em;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+#trailers {
+  margin-top: 16em;
+}
+nav {
+  width: 100%;
+  /* background-color: #dc3545; */
+  border-radius: 5px;
+}
+li {
+  border-radius: 5px;
+}
+a {
+  color: #dc3545;
+}
+.ownactive {
+  background-color: #f2dede;
+  color: #dc3545;
+}
+.panel-footer {
+  background-color: #f2dede;
+  color: #b75c6b;
+}
+
+
+/* ---------------------------------------------------------------------- */
+label {
+  color: white;
+  line-height: 35px;
+}
+
+.hidden {
+  display: none;
+}
+
+#signIn {
+  display: none;
+}
+
+#signIn2 {
+  display: none;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-right: 3%;
+  display: none;
+  z-index: 98;
+}
+/* ---------------------------------------------------------------------- */
+.col-xs-12 {
+  padding-left: 10px !important;
+  padding-right: 5px !important;
+}
+/* .archive {
+  height: 2em;
+} */
+/* ---------------------------------------------------------------------- */
+.show-more-button {
+  color: #dc3545;
+  cursor: pointer;
+}
+.long-text {
+  display: none
+}
+/
+.bs-example {
+  margin: 20px;
+}
+#module {
+  width: 500px;
+}
+
+#module p.collapse[aria-expanded="false"] {
+    display: block;
+    height: 0px;
+    /* height: 40px !important; */
+    overflow: hidden;
+}
+
+#module p.collapsing[aria-expanded="false"] {
+    height: 40px;
+    /* height: 40px !important; */
+}
+
+#module a.collapsed:after  {
+    content: 'Sign In';
+    font-size: 20px;
+    color: #b75c6b;
+}
+
+#module a:not(.collapsed):after {
+    content: 'Close';
+    font-size: 20px;
+    color: #b75c6b;
+}
+/* ----------------------------------------- */

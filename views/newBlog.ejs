@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title><%= title %></title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+    <!-- SummerNote0 -->
+
+   <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+   <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
+   <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.css" rel="stylesheet">
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
+  </head>
+  <body>
+
+   <div class="box">
+
+     <div class="jumbotron">
+       <h1>
+         <img src="http://www.n-ragedmedia.com/images/2011%20website%20images/MOVIES-page-banner-text.png" alt="" width="100%" height="100%">
+       </h1>
+     </div>
+
+     <div class="row">
+       <div class="maincontainer col-md-8">
+
+         <div class="row">
+
+           <div class="container col-xs-12 col-lg-12"  data-scroll-speed="4">
+
+             <form name="blog" method="POST" action="/newBlog">
+
+                 <div class="input-group">
+                     <label for="Author">Author:</label>
+                     <input type="text" class="form-control" placeholder="Username" id="Author" name="author">
+
+                 </div>
+
+                 <div class="input-group">
+                     <label for="Title">Title:</label>
+                     <input type="text" class="form-control" placeholder="Title" id="Title" name="title">
+                 </div>
+
+                 <div class="input-group">
+                     <label for="datetime">Date and Time:</label>
+                     <input type="date" class="form-control" placeholder="Date-time" id="Title" name="time">
+                 </div>
+
+                 <div class="input-group">
+                     <label for="image">Image:</label>
+                     <input type="text" class="form-control" placeholder="image url" id="Title" name="image">
+                 </div>
+                 <br>
+                 <div class="input-group">
+                     <textarea id="summernote" name="content2"></textarea>
+                     <script>
+                         $(document).ready(function () {
+                             $('#summernote').summernote({
+                                 height: 150
+                             });
+                         });
+                     </script>
+
+                 </div>
+
+
+                 <button type="submit" class="btn btn-danger">POST</button>
+             </form>
+
+           </div>
+
+
+         </div>
+
+       </div>
+       <!-- nav-stacked -->
+       <!------------------------------------------------------------------------->
+       <div id="sidebar" class="sidebar col-md-4">
+         <nav  class="bg-light">
+           <ul class="nav nav-tabs flex-column" data-spy="affix" data-offset-top="615">
+             <li><a class="text-danger" href="/">Home</a></li>
+             <li><a class="text-danger" href="/archive">Archive</a></li>
+             <li class="ownactive"><a class="ownactive" href="/newBlog">Create Post</a></li>
+             <li><a class="text-danger" href="/signUp">Sign Up</a></li>
+             <li><div id="module" class="container">
+
+               <p class="collapse" id="collapseExample" aria-expanded="false">
+
+                     <input type="text" placeholder="First Name" name="name" value=""  maxlength="12" required>
+                     <input type="text" placeholder="Last Name" name="surname" value="">
+                     <input type="email" placeholder="E-mail" name="email" value="">
+                     <input type="password" placeholder="Password" name="password" value="">
+                     <button class="btn btn-secondary" onclick="myFunction()"><span id="signOut">Sign In</span></button>
+
+               </p>
+               <h3><a role="button" class="collapsed" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+               </a></h3>
+
+             </div></li>
+           </ul>
+         </nav>
+         <!-------------------------------------->
+         <div class="frames">
+
+         </div>
+       </div>
+
+     </div>
+   </div>
+   <div id="footer" class="footer">
+     <div class="panel panel-danger">
+       <div class="panel-heading">
+         <h3 class="panel-title">All rights reserved 2018 | </h3>
+       </div>
+
+
+     </div>
+   </div>
+
+  <script type="text/javascript">
+  //////////////////////////////////////
+  // footer
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+        document.getElementById("footer").style.display = "block";
+    } else {
+        document.getElementById("footer").style.display = "none";
+    }
+  }
+  </script>
+  </body>
+</html>
